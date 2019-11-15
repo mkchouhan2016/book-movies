@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dreamgirlbook"
+    android:background="#DBDAD9"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/movieimage"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back"
+          android:id="@+id/back"
+            android:layout_marginLeft="0dp"
+            ></ImageView>
+    </androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="180dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:id="@+id/moviename"
+        android:textStyle="bold"
+        android:textColor="#0F0F0F"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Watch Trailer"
+            android:textSize="18dp"
+            android:drawableRight="@drawable/watch"
+            android:gravity="center"
+android:layout_marginRight="10dp"
+            android:id="@+id/watchtrailer"
+            ></TextView>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/genre"
+            ></TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_marginTop="260dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="Duration"
+            android:textStyle="bold"
+            android:textColor="#0F0F0F"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+        <TextView
+            android:layout_marginTop="260dp"
+            android:layout_width="100dp"
+
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="Rating"
+            android:textStyle="bold"
+            android:textColor="#0F0F0F"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+        <TextView
+            android:layout_marginTop="260dp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="Released Date"
+            android:textStyle="bold"
+            android:textColor="#0F0F0F"
+            android:layout_marginLeft="10dp"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <TextView
+        android:layout_marginTop="300dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/duration"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+    <TextView
+        android:layout_marginTop="300dp"
+        android:layout_width="100dp"
+
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+
+        android:text="U|A"
+        android:layout_marginLeft="20dp"
+        ></TextView>
+    <TextView
+        android:layout_marginTop="300dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/released"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+
+</LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="400dp"
+android:layout_marginLeft="10dp"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    android:textColor="#0F0F0F"
+    android:text="Cast and Crew"
+    ></TextView>
+    <TextView
+        android:layout_marginTop="430dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:id="@+id/cast"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:text="About Movie"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#0F0F0F"
+        ></TextView>
+
+
+    <TextView
+        android:layout_marginTop="550dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+       android:id="@+id/about"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="780dp"
+        android:text="Book Now"
+        android:textSize="33dp"
+        android:id="@+id/bookbtn"
+        android:textColor="#FDFBFB"
+        android:background="@color/colorPrimaryDark"
+
+        >
+
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".confirmticket">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/whatapp"
+                android:background="@drawable/what"
+                android:layout_marginLeft="310dp"
+                ></ImageView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/share"
+                ></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                >
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="VR"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="40dp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="CINEMA"
+                    android:textColor="#1075C5"
+
+                    android:textSize="33dp"
+                    android:textStyle="italic"></TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Movie Tickets"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            >
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Booking Confirmed"
+
+                android:textSize="25dp"
+                android:textStyle="bold"
+                >
+            </TextView>
+            <ImageView
+                android:background="@drawable/arrow"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                >
+
+            </ImageView>
+        </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#aaaa"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/confirmimg"
+
+                        ></ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/linear"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:text="Dream Girl"
+                            android:id="@+id/moviename11"
+                            android:textStyle="bold"
+                            android:textColor="#0F0F0F"
+                            android:layout_marginLeft="20dp"
+                            ></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/type11"
+                            android:text="HINDI| Comedy,Drama"
+                            ></TextView>
+                        <TextView
+                            android:layout_width="190dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="10pm 15min |Fri,14 Sep 2019"
+                            android:id="@+id/duration11"
+                            android:layout_marginLeft="20dp"
+                            android:textSize="14dp"
+                            android:textColor="#AA2E2D2D"
+                            ></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_marginTop="105dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#aaa"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="120dp"
+                    >
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Seat Alloted"
+
+                        android:textSize="20dp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="Scan QR Code"
+                        android:textSize="20dp"
+                        >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="160dp"
+                    >
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="VR-c11,c12,c13"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+
+                        android:textColor="#0F0F0F"
+                        >
+                    </TextView>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/qrcode"
+                    >
+
+                </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="285dp"
+                    android:layout_marginBottom="20dp"
+                    >
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:text="Booking ID:-"
+
+                        android:textSize="15dp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:text="7252924230MK"
+                        android:textSize="15dp"
+                        >
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            //summary
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="#aaaa"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <View
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:background="#aaa"/>
+            <TextView
+                android:layout_width="130dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Payment Summary"
+                >
+
+            </TextView>
+
+                <View
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="2dp"
+                    android:background="#aaa"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tickets Subtotal"
+                    android:textStyle="bold"
+
+                    android:textColor="#0F0F0F"
+                    android:textSize="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Amounts(Rs)"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textColor="#0F0F0F"
+                    >
+                </TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:id="@+id/ppl"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ticketamt"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Taxes and Fees"
+                    android:textStyle="bold"
+                    android:textColor="#0F0F0F"
+                    android:textSize="20dp"
+                    >
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Conveniences Fee"
+                    android:textSize="15dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="108.0"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Central Good and Services Tax"
+                    android:textSize="15dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="9.0"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="State Good and Servics Tax"
+                    android:textSize="15dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="9.00"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    >
+                </TextView>
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#aaa"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                >
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total Amount"
+                    android:textStyle="bold"
+                    android:id="@+id/sum"
+                    android:textColor="#0F0F0F"
+                    android:textSize="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalamount"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textColor="#0F0F0F"
+                    >
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#aaaa"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            >
+          <TextView
+              android:layout_marginLeft="40dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="IMPORTANT NOTES"
+              ></TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Your tickets can be cancelled.Only those tickets
+booked under our cancellation Protect feature are eligible for refurnd.However,no
+tickets can be exchanged"
+                ></TextView>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/colorPrimaryDark"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#1F85D6"
+
+                />
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:text="DONE"
+                android:textSize="33dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#FFFFFF"
+                android:id="@+id/confirm"
+
+                >
+
+            </Button>
+
+
+     </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

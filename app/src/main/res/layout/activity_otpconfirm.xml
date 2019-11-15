@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otpconfirm"
+
+    android:background="@drawable/login"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+
+        >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="VR"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="60dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CINEMA"
+            android:textColor="#1075C5"
+
+            android:textSize="40dp"
+            android:textStyle="italic"></TextView>
+    </LinearLayout>
+
+    <EditText
+        android:textColorHint="#F7F5F5"
+        android:textColor="#DBD8D3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:id="@+id/number11"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/number11"
+        android:text="Signin"
+        android:textSize="33dp"
+        android:id="@+id/signin"
+        />
+
+</RelativeLayout>
